@@ -1,0 +1,51 @@
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/workspace/scratch/6a26d72ddcae/gas_storage_v3/build/race_silent.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf61.7.103
+  Duration: 00:02:00.00, start: 0.000000, bitrate: 2094 kb/s
+  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 1080x1920, 2088 kb/s, 60 fps, 60 tbr, 15360 tbn (default)
+      Metadata:
+        handler_name    : VideoHandler
+        vendor_id       : [0][0][0][0]
+        encoder         : Lavc61.19.101 libx264
+[aist#1:0/pcm_s16le @ 0x5637eb878fc0] Guessed Channel Layout: stereo
+Input #1, wav, from '/workspace/scratch/6a26d72ddcae/gas_storage_v3/build/music.wav':
+  Duration: 00:02:00.00, bitrate: 1411 kb/s
+  Stream #1:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 44100 Hz, stereo, s16, 1411 kb/s
+Stream mapping:
+  Stream #0:0 -> #0:0 (copy)
+  Stream #1:0 -> #0:1 (pcm_s16le (native) -> aac (native))
+Press [q] to stop, [?] for help
+Output #0, mp4, to '/workspace/scratch/6a26d72ddcae/gas_storage_v3/output/Who_Stores_the_Most_Gas_2010-2026.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf61.7.103
+  Stream #0:0(und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 1080x1920, q=2-31, 2088 kb/s, 60 fps, 60 tbr, 15360 tbn (default)
+      Metadata:
+        handler_name    : VideoHandler
+        vendor_id       : [0][0][0][0]
+        encoder         : Lavc61.19.101 libx264
+  Stream #0:1: Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 192 kb/s
+      Metadata:
+        encoder         : Lavc61.19.101 aac
+[Parsed_loudnorm_0 @ 0x7f2efc004200] 
+{
+	"input_i" : "-12.48",
+	"input_tp" : "-1.00",
+	"input_lra" : "0.90",
+	"input_thresh" : "-22.64",
+	"output_i" : "-13.96",
+	"output_tp" : "-2.48",
+	"output_lra" : "1.00",
+	"output_thresh" : "-24.12",
+	"normalization_type" : "linear",
+	"target_offset" : "-0.04"
+}
+[mp4 @ 0x5637eb879400] Starting second pass: moving the moov atom to the beginning of the file
+[out#0/mp4 @ 0x5637eb879300] video:30599KiB audio:2976KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.553617%
+frame= 7200 fps=3034 q=-1.0 Lsize=   33761KiB time=00:01:59.96 bitrate=2305.4kbits/s speed=50.6x    
+[aac @ 0x5637eb73c280] Qavg: 529.245

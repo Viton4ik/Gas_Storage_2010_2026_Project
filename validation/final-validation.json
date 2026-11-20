@@ -1,0 +1,52 @@
+{
+  "duration_seconds": 120,
+  "periods": 200,
+  "minimum_checked_on_every_frame": true,
+  "minimum_selected_from_all_eligible_reporters": true,
+  "zero_and_missing_excluded": true,
+  "minimum_digits_up_to": 7,
+  "maximum_floating_point_difference_bcm": 9.996344030316351e-17,
+  "monthly_display_preserves_raw_report_value": true,
+  "minimum_never_duplicated_in_visible_main_rows": true,
+  "swaps_per_second": 1.9389587073608616,
+  "frames_wrong_by_more_than_3_percent": 0.0,
+  "minimum_country_month_counts": {
+    "LT": 9,
+    "LV": 4,
+    "IE": 18,
+    "GR": 1,
+    "DO": 2,
+    "ZA": 138,
+    "BB": 6,
+    "MD": 15,
+    "SE": 3,
+    "MT": 4
+  },
+  "first_minimum": {
+    "month": "2010-01",
+    "country": "LT",
+    "stocks_billion_m3": 0.038,
+    "assessment_code": "1",
+    "tied_countries": "LT"
+  },
+  "last_minimum": {
+    "month": "2026-08",
+    "country": "MD",
+    "stocks_billion_m3": 0.02325,
+    "assessment_code": "1",
+    "tied_countries": "MD"
+  },
+  "video_frames": 7200,
+  "resolution": [
+    1080,
+    1920
+  ],
+  "fps": 60,
+  "audio_codec": "AAC",
+  "audio_channels": 2,
+  "audio_sample_rate": 48000,
+  "integrated_loudness_lufs": -14.0,
+  "true_peak_dbfs": -2.4,
+  "full_decode_passed": true,
+  "data_status": "Screened reported inventories; incomplete country coverage; code-2 caution retained"
+}

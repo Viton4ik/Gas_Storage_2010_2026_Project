@@ -1,0 +1,714 @@
+{
+  "start": "2010-01",
+  "end": "2026-08",
+  "periods": 200,
+  "metric": "Reported end-of-month recoverable gas stocks, billion m3",
+  "assessment_policy": "Codes 1/2 retained; code 2 caution recorded; code 3 unassessed excluded",
+  "reporting_country_count": 54,
+  "rendering_countries": [
+    "AR",
+    "AT",
+    "AZ",
+    "BB",
+    "BD",
+    "BE",
+    "BG",
+    "BH",
+    "CA",
+    "CH",
+    "CL",
+    "CO",
+    "CZ",
+    "DE",
+    "DK",
+    "DO",
+    "EE",
+    "ES",
+    "FI",
+    "FR",
+    "GB",
+    "GE",
+    "GR",
+    "HR",
+    "HU",
+    "IE",
+    "IN",
+    "IT",
+    "JP",
+    "KR",
+    "LT",
+    "LU",
+    "LV",
+    "MA",
+    "MD",
+    "MK",
+    "MM",
+    "MT",
+    "NL",
+    "NO",
+    "NZ",
+    "PA",
+    "PL",
+    "PT",
+    "RO",
+    "RS",
+    "SE",
+    "SI",
+    "SK",
+    "TN",
+    "TR",
+    "UA",
+    "US",
+    "ZA"
+  ],
+  "rendering_spans": {
+    "AR": {
+      "country": "AR",
+      "first": "2013-01",
+      "last": "2016-07"
+    },
+    "AT": {
+      "country": "AT",
+      "first": "2010-01",
+      "last": "2026-08"
+    },
+    "AZ_01": {
+      "country": "AZ",
+      "first": "2010-12",
+      "last": "2010-12"
+    },
+    "AZ_02": {
+      "country": "AZ",
+      "first": "2011-03",
+      "last": "2011-03"
+    },
+    "AZ_03": {
+      "country": "AZ",
+      "first": "2011-09",
+      "last": "2011-09"
+    },
+    "AZ_04": {
+      "country": "AZ",
+      "first": "2011-12",
+      "last": "2011-12"
+    },
+    "AZ_05": {
+      "country": "AZ",
+      "first": "2012-06",
+      "last": "2012-06"
+    },
+    "AZ_06": {
+      "country": "AZ",
+      "first": "2012-08",
+      "last": "2026-08"
+    },
+    "BB_01": {
+      "country": "BB",
+      "first": "2015-01",
+      "last": "2015-06"
+    },
+    "BB_02": {
+      "country": "BB",
+      "first": "2016-01",
+      "last": "2016-06"
+    },
+    "BD": {
+      "country": "BD",
+      "first": "2011-01",
+      "last": "2014-03"
+    },
+    "BE": {
+      "country": "BE",
+      "first": "2010-01",
+      "last": "2026-08"
+    },
+    "BG": {
+      "country": "BG",
+      "first": "2020-01",
+      "last": "2026-08"
+    },
+    "BH_01": {
+      "country": "BH",
+      "first": "2016-09",
+      "last": "2025-12"
+    },
+    "BH_02": {
+      "country": "BH",
+      "first": "2026-03",
+      "last": "2026-03"
+    },
+    "BH_03": {
+      "country": "BH",
+      "first": "2026-07",
+      "last": "2026-08"
+    },
+    "CA": {
+      "country": "CA",
+      "first": "2016-01",
+      "last": "2026-08"
+    },
+    "CH": {
+      "country": "CH",
+      "first": "2010-01",
+      "last": "2026-08"
+    },
+    "CL_01": {
+      "country": "CL",
+      "first": "2013-01",
+      "last": "2023-10"
+    },
+    "CL_02": {
+      "country": "CL",
+      "first": "2024-01",
+      "last": "2026-08"
+    },
+    "CO_01": {
+      "country": "CO",
+      "first": "2014-01",
+      "last": "2014-01"
+    },
+    "CO_02": {
+      "country": "CO",
+      "first": "2014-03",
+      "last": "2014-04"
+    },
+    "CO_03": {
+      "country": "CO",
+      "first": "2015-03",
+      "last": "2015-03"
+    },
+    "CO_04": {
+      "country": "CO",
+      "first": "2015-07",
+      "last": "2015-08"
+    },
+    "CZ": {
+      "country": "CZ",
+      "first": "2010-01",
+      "last": "2026-08"
+    },
+    "DE": {
+      "country": "DE",
+      "first": "2013-01",
+      "last": "2026-08"
+    },
+    "DK": {
+      "country": "DK",
+      "first": "2010-01",
+      "last": "2026-08"
+    },
+    "DO_01": {
+      "country": "DO",
+      "first": "2010-08",
+      "last": "2010-12"
+    },
+    "DO_02": {
+      "country": "DO",
+      "first": "2012-01",
+      "last": "2016-08"
+    },
+    "EE": {
+      "country": "EE",
+      "first": "2010-01",
+      "last": "2026-08"
+    },
+    "ES": {
+      "country": "ES",
+      "first": "2010-01",
+      "last": "2026-08"
+    },
+    "FI": {
+      "country": "FI",
+      "first": "2010-01",
+      "last": "2026-08"
+    },
+    "FR": {
+      "country": "FR",
+      "first": "2010-01",
+      "last": "2026-08"
+    },
+    "GB": {
+      "country": "GB",
+      "first": "2010-01",
+      "last": "2026-08"
+    },
+    "GE": {
+      "country": "GE",
+      "first": "2015-01",
+      "last": "2020-03"
+    },
+    "GR": {
+      "country": "GR",
+      "first": "2010-01",
+      "last": "2026-08"
+    },
+    "HR": {
+      "country": "HR",
+      "first": "2020-01",
+      "last": "2026-08"
+    },
+    "HU": {
+      "country": "HU",
+      "first": "2010-01",
+      "last": "2026-08"
+    },
+    "IE": {
+      "country": "IE",
+      "first": "2010-01",
+      "last": "2026-08"
+    },
+    "IN": {
+      "country": "IN",
+      "first": "2024-09",
+      "last": "2024-09"
+    },
+    "IT": {
+      "country": "IT",
+      "first": "2010-01",
+      "last": "2026-08"
+    },
+    "JP": {
+      "country": "JP",
+      "first": "2010-01",
+      "last": "2026-08"
+    },
+    "KR": {
+      "country": "KR",
+      "first": "2010-01",
+      "last": "2026-08"
+    },
+    "LT": {
+      "country": "LT",
+      "first": "2010-01",
+      "last": "2026-08"
+    },
+    "LU": {
+      "country": "LU",
+      "first": "2010-01",
+      "last": "2026-08"
+    },
+    "LV": {
+      "country": "LV",
+      "first": "2010-01",
+      "last": "2026-08"
+    },
+    "MA_01": {
+      "country": "MA",
+      "first": "2019-01",
+      "last": "2019-10"
+    },
+    "MA_02": {
+      "country": "MA",
+      "first": "2019-12",
+      "last": "2021-12"
+    },
+    "MA_03": {
+      "country": "MA",
+      "first": "2022-10",
+      "last": "2022-12"
+    },
+    "MA_04": {
+      "country": "MA",
+      "first": "2023-10",
+      "last": "2025-12"
+    },
+    "MD": {
+      "country": "MD",
+      "first": "2015-01",
+      "last": "2026-08"
+    },
+    "MK": {
+      "country": "MK",
+      "first": "2019-01",
+      "last": "2020-09"
+    },
+    "MM": {
+      "country": "MM",
+      "first": "2012-01",
+      "last": "2012-03"
+    },
+    "MT": {
+      "country": "MT",
+      "first": "2020-01",
+      "last": "2026-08"
+    },
+    "NL": {
+      "country": "NL",
+      "first": "2014-01",
+      "last": "2026-08"
+    },
+    "NO": {
+      "country": "NO",
+      "first": "2013-01",
+      "last": "2026-08"
+    },
+    "NZ": {
+      "country": "NZ",
+      "first": "2010-01",
+      "last": "2026-08"
+    },
+    "PA": {
+      "country": "PA",
+      "first": "2023-01",
+      "last": "2023-12"
+    },
+    "PL": {
+      "country": "PL",
+      "first": "2010-01",
+      "last": "2026-08"
+    },
+    "PT": {
+      "country": "PT",
+      "first": "2010-01",
+      "last": "2026-08"
+    },
+    "RO": {
+      "country": "RO",
+      "first": "2020-01",
+      "last": "2026-08"
+    },
+    "RS": {
+      "country": "RS",
+      "first": "2024-01",
+      "last": "2026-08"
+    },
+    "SE": {
+      "country": "SE",
+      "first": "2010-01",
+      "last": "2026-08"
+    },
+    "SI": {
+      "country": "SI",
+      "first": "2010-01",
+      "last": "2026-08"
+    },
+    "SK": {
+      "country": "SK",
+      "first": "2010-01",
+      "last": "2026-08"
+    },
+    "TN_01": {
+      "country": "TN",
+      "first": "2011-08",
+      "last": "2020-11"
+    },
+    "TN_02": {
+      "country": "TN",
+      "first": "2021-01",
+      "last": "2021-06"
+    },
+    "TN_03": {
+      "country": "TN",
+      "first": "2021-08",
+      "last": "2025-12"
+    },
+    "TR": {
+      "country": "TR",
+      "first": "2010-01",
+      "last": "2026-08"
+    },
+    "UA": {
+      "country": "UA",
+      "first": "2011-05",
+      "last": "2022-01"
+    },
+    "US": {
+      "country": "US",
+      "first": "2010-01",
+      "last": "2026-08"
+    },
+    "ZA_01": {
+      "country": "ZA",
+      "first": "2012-09",
+      "last": "2012-10"
+    },
+    "ZA_02": {
+      "country": "ZA",
+      "first": "2013-01",
+      "last": "2021-09"
+    },
+    "ZA_03": {
+      "country": "ZA",
+      "first": "2021-11",
+      "last": "2023-05"
+    },
+    "ZA_04": {
+      "country": "ZA",
+      "first": "2023-07",
+      "last": "2024-12"
+    }
+  },
+  "key_months": {
+    "2010-01": {
+      "reporters": 27,
+      "top_10": [
+        {
+          "country": "US",
+          "billion_m3": 65.238
+        },
+        {
+          "country": "IT",
+          "billion_m3": 9.353
+        },
+        {
+          "country": "FR",
+          "billion_m3": 6.503
+        },
+        {
+          "country": "JP",
+          "billion_m3": 4.43
+        },
+        {
+          "country": "HU",
+          "billion_m3": 3.441
+        },
+        {
+          "country": "AT",
+          "billion_m3": 3.19
+        },
+        {
+          "country": "CZ",
+          "billion_m3": 2.229
+        },
+        {
+          "country": "GB",
+          "billion_m3": 2.157
+        },
+        {
+          "country": "DK",
+          "billion_m3": 1.984
+        },
+        {
+          "country": "ES",
+          "billion_m3": 1.787
+        }
+      ],
+      "zero_ties": [
+        "CH",
+        "EE",
+        "FI",
+        "LU",
+        "SE",
+        "SI"
+      ]
+    },
+    "2010-12": {
+      "reporters": 29,
+      "top_10": [
+        {
+          "country": "US",
+          "billion_m3": 88.096
+        },
+        {
+          "country": "IT",
+          "billion_m3": 12.344
+        },
+        {
+          "country": "FR",
+          "billion_m3": 7.127
+        },
+        {
+          "country": "JP",
+          "billion_m3": 4.667
+        },
+        {
+          "country": "HU",
+          "billion_m3": 3.86
+        },
+        {
+          "country": "KR",
+          "billion_m3": 3.509
+        },
+        {
+          "country": "AT",
+          "billion_m3": 3.183
+        },
+        {
+          "country": "AZ",
+          "billion_m3": 2.8934
+        },
+        {
+          "country": "DK",
+          "billion_m3": 2.112
+        },
+        {
+          "country": "SK",
+          "billion_m3": 2.102
+        }
+      ],
+      "zero_ties": [
+        "CH",
+        "EE",
+        "FI",
+        "LU",
+        "SE",
+        "SI"
+      ]
+    },
+    "2016-01": {
+      "reporters": 41,
+      "top_10": [
+        {
+          "country": "US",
+          "billion_m3": 83.197
+        },
+        {
+          "country": "CA",
+          "billion_m3": 22.22
+        },
+        {
+          "country": "NL",
+          "billion_m3": 16.25
+        },
+        {
+          "country": "DE",
+          "billion_m3": 12.209
+        },
+        {
+          "country": "IT",
+          "billion_m3": 11.583
+        },
+        {
+          "country": "UA",
+          "billion_m3": 10.92
+        },
+        {
+          "country": "FR",
+          "billion_m3": 5.812
+        },
+        {
+          "country": "JP",
+          "billion_m3": 5.488
+        },
+        {
+          "country": "AT",
+          "billion_m3": 4.388
+        },
+        {
+          "country": "KR",
+          "billion_m3": 2.879
+        }
+      ],
+      "zero_ties": [
+        "AR",
+        "CH",
+        "DO",
+        "EE",
+        "FI",
+        "GE",
+        "LU",
+        "SE",
+        "SI",
+        "TN"
+      ]
+    },
+    "2020-12": {
+      "reporters": 42,
+      "top_10": [
+        {
+          "country": "US",
+          "billion_m3": 94.606
+        },
+        {
+          "country": "CA",
+          "billion_m3": 24.351
+        },
+        {
+          "country": "DE",
+          "billion_m3": 18.426
+        },
+        {
+          "country": "UA",
+          "billion_m3": 15.746
+        },
+        {
+          "country": "IT",
+          "billion_m3": 14.928
+        },
+        {
+          "country": "NL",
+          "billion_m3": 11.666
+        },
+        {
+          "country": "FR",
+          "billion_m3": 8.315
+        },
+        {
+          "country": "AT",
+          "billion_m3": 7.357
+        },
+        {
+          "country": "JP",
+          "billion_m3": 5.742
+        },
+        {
+          "country": "HU",
+          "billion_m3": 5.38
+        }
+      ],
+      "zero_ties": [
+        "BH",
+        "CH",
+        "EE",
+        "IE",
+        "LU",
+        "MA",
+        "SE",
+        "SI"
+      ]
+    },
+    "2026-08": {
+      "reporters": 40,
+      "top_10": [
+        {
+          "country": "US",
+          "billion_m3": 92.982
+        },
+        {
+          "country": "CA",
+          "billion_m3": 25.793
+        },
+        {
+          "country": "IT",
+          "billion_m3": 16.058
+        },
+        {
+          "country": "DE",
+          "billion_m3": 11.815
+        },
+        {
+          "country": "FR",
+          "billion_m3": 8.003
+        },
+        {
+          "country": "NL",
+          "billion_m3": 7.49
+        },
+        {
+          "country": "JP",
+          "billion_m3": 6.519
+        },
+        {
+          "country": "AT",
+          "billion_m3": 6.143
+        },
+        {
+          "country": "TR",
+          "billion_m3": 5.76
+        },
+        {
+          "country": "HU",
+          "billion_m3": 4.289
+        }
+      ],
+      "zero_ties": [
+        "BH",
+        "CH",
+        "EE",
+        "IE",
+        "LU",
+        "SI"
+      ]
+    }
+  }
+}

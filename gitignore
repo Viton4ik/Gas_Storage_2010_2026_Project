@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+.env
+
+# Node
+node_modules/
+npm-debug.log
+
+# Данные / большие файлы
+*.csv
+*.xlsx
+*.parquet
+data/raw/
+logs/
+
+# IDE
+.vscode/
+.idea/
+.DS_Store
+*.log
+
+# Сборки
+dist/
+build/

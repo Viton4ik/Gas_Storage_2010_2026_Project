@@ -1,0 +1,548 @@
+{
+  "output": "output/Who_Stores_the_Most_Gas_2010-2026.mp4",
+  "motion": "modern",
+  "video": {
+    "size": [
+      1080,
+      1920
+    ],
+    "fps": 60
+  },
+  "timing": {
+    "intro": 2.0,
+    "race": 111.4,
+    "hold": 1.6,
+    "outro": 5.0,
+    "event_seconds": 2.7
+  },
+  "data": {
+    "csv": "data/values.csv",
+    "period_col": "period",
+    "code_col": "code"
+  },
+  "series": [
+    {
+      "col": "gas",
+      "label": "Reported gas stocks \u00b7 billion m\u00b3",
+      "color_from": "#77BFF4",
+      "color_to": "#3D87CF"
+    }
+  ],
+  "ranking": {
+    "sort_by": "gas",
+    "order": "desc",
+    "top_n": 6,
+    "pinned_dynamic": [
+      "max",
+      "min"
+    ],
+    "smooth_window": 0,
+    "slot_fade_seconds": 0.25,
+    "swap": {
+      "threshold": 1.000000001,
+      "hold_seconds": 0.18,
+      "cooldown_seconds": 0.25,
+      "instant": 1.03,
+      "spring_k": 0.028
+    }
+  },
+  "entities": {
+    "AR": {
+      "name": "Argentina",
+      "sub": "",
+      "flag": "ar"
+    },
+    "AT": {
+      "name": "Austria",
+      "sub": "",
+      "flag": "at"
+    },
+    "AZ_01": {
+      "name": "Azerbaijan",
+      "sub": "",
+      "flag": "az"
+    },
+    "AZ_02": {
+      "name": "Azerbaijan",
+      "sub": "",
+      "flag": "az"
+    },
+    "AZ_03": {
+      "name": "Azerbaijan",
+      "sub": "",
+      "flag": "az"
+    },
+    "AZ_04": {
+      "name": "Azerbaijan",
+      "sub": "",
+      "flag": "az"
+    },
+    "AZ_05": {
+      "name": "Azerbaijan",
+      "sub": "",
+      "flag": "az"
+    },
+    "AZ_06": {
+      "name": "Azerbaijan",
+      "sub": "",
+      "flag": "az"
+    },
+    "BB_01": {
+      "name": "Barbados",
+      "sub": "",
+      "flag": "bb"
+    },
+    "BB_02": {
+      "name": "Barbados",
+      "sub": "",
+      "flag": "bb"
+    },
+    "BD": {
+      "name": "Bangladesh",
+      "sub": "",
+      "flag": "bd"
+    },
+    "BE": {
+      "name": "Belgium",
+      "sub": "",
+      "flag": "be"
+    },
+    "BG": {
+      "name": "Bulgaria",
+      "sub": "",
+      "flag": "bg"
+    },
+    "BH_01": {
+      "name": "Bahrain",
+      "sub": "",
+      "flag": "bh"
+    },
+    "BH_02": {
+      "name": "Bahrain",
+      "sub": "",
+      "flag": "bh"
+    },
+    "BH_03": {
+      "name": "Bahrain",
+      "sub": "",
+      "flag": "bh"
+    },
+    "CA": {
+      "name": "Canada*",
+      "sub": "",
+      "flag": "ca"
+    },
+    "CH": {
+      "name": "Switzerland",
+      "sub": "",
+      "flag": "ch"
+    },
+    "CL_01": {
+      "name": "Chile",
+      "sub": "",
+      "flag": "cl"
+    },
+    "CL_02": {
+      "name": "Chile",
+      "sub": "",
+      "flag": "cl"
+    },
+    "CO_01": {
+      "name": "Colombia",
+      "sub": "",
+      "flag": "co"
+    },
+    "CO_02": {
+      "name": "Colombia",
+      "sub": "",
+      "flag": "co"
+    },
+    "CO_03": {
+      "name": "Colombia",
+      "sub": "",
+      "flag": "co"
+    },
+    "CO_04": {
+      "name": "Colombia",
+      "sub": "",
+      "flag": "co"
+    },
+    "CZ": {
+      "name": "Czechia",
+      "sub": "",
+      "flag": "cz"
+    },
+    "DE": {
+      "name": "Germany",
+      "sub": "",
+      "flag": "de"
+    },
+    "DK": {
+      "name": "Denmark",
+      "sub": "",
+      "flag": "dk"
+    },
+    "DO_01": {
+      "name": "Dominican Rep.",
+      "sub": "",
+      "flag": "do"
+    },
+    "DO_02": {
+      "name": "Dominican Rep.",
+      "sub": "",
+      "flag": "do"
+    },
+    "EE": {
+      "name": "Estonia",
+      "sub": "",
+      "flag": "ee"
+    },
+    "ES": {
+      "name": "Spain",
+      "sub": "",
+      "flag": "es"
+    },
+    "FI": {
+      "name": "Finland",
+      "sub": "",
+      "flag": "fi"
+    },
+    "FR": {
+      "name": "France",
+      "sub": "",
+      "flag": "fr"
+    },
+    "GB": {
+      "name": "United Kingdom",
+      "sub": "",
+      "flag": "gb"
+    },
+    "GE": {
+      "name": "Georgia",
+      "sub": "",
+      "flag": "ge"
+    },
+    "GR": {
+      "name": "Greece",
+      "sub": "",
+      "flag": "gr"
+    },
+    "HR": {
+      "name": "Croatia",
+      "sub": "",
+      "flag": "hr"
+    },
+    "HU": {
+      "name": "Hungary",
+      "sub": "",
+      "flag": "hu"
+    },
+    "IE": {
+      "name": "Ireland",
+      "sub": "",
+      "flag": "ie"
+    },
+    "IN": {
+      "name": "India",
+      "sub": "",
+      "flag": "in"
+    },
+    "IT": {
+      "name": "Italy",
+      "sub": "",
+      "flag": "it"
+    },
+    "JP": {
+      "name": "Japan",
+      "sub": "",
+      "flag": "jp"
+    },
+    "KR": {
+      "name": "South Korea",
+      "sub": "",
+      "flag": "kr"
+    },
+    "LT": {
+      "name": "Lithuania",
+      "sub": "",
+      "flag": "lt"
+    },
+    "LU": {
+      "name": "Luxembourg",
+      "sub": "",
+      "flag": "lu"
+    },
+    "LV": {
+      "name": "Latvia",
+      "sub": "",
+      "flag": "lv"
+    },
+    "MA_01": {
+      "name": "Morocco",
+      "sub": "",
+      "flag": "ma"
+    },
+    "MA_02": {
+      "name": "Morocco",
+      "sub": "",
+      "flag": "ma"
+    },
+    "MA_03": {
+      "name": "Morocco",
+      "sub": "",
+      "flag": "ma"
+    },
+    "MA_04": {
+      "name": "Morocco",
+      "sub": "",
+      "flag": "ma"
+    },
+    "MD": {
+      "name": "Moldova",
+      "sub": "",
+      "flag": "md"
+    },
+    "MK": {
+      "name": "North Macedonia",
+      "sub": "",
+      "flag": "mk"
+    },
+    "MM": {
+      "name": "Myanmar",
+      "sub": "",
+      "flag": "mm"
+    },
+    "MT": {
+      "name": "Malta",
+      "sub": "",
+      "flag": "mt"
+    },
+    "NL": {
+      "name": "Netherlands",
+      "sub": "",
+      "flag": "nl"
+    },
+    "NO": {
+      "name": "Norway",
+      "sub": "",
+      "flag": "no"
+    },
+    "NZ": {
+      "name": "New Zealand",
+      "sub": "",
+      "flag": "nz"
+    },
+    "PA": {
+      "name": "Panama",
+      "sub": "",
+      "flag": "pa"
+    },
+    "PL": {
+      "name": "Poland",
+      "sub": "",
+      "flag": "pl"
+    },
+    "PT": {
+      "name": "Portugal",
+      "sub": "",
+      "flag": "pt"
+    },
+    "RO": {
+      "name": "Romania",
+      "sub": "",
+      "flag": "ro"
+    },
+    "RS": {
+      "name": "Serbia",
+      "sub": "",
+      "flag": "rs"
+    },
+    "SE": {
+      "name": "Sweden",
+      "sub": "",
+      "flag": "se"
+    },
+    "SI": {
+      "name": "Slovenia",
+      "sub": "",
+      "flag": "si"
+    },
+    "SK": {
+      "name": "Slovakia",
+      "sub": "",
+      "flag": "sk"
+    },
+    "TN_01": {
+      "name": "Tunisia",
+      "sub": "",
+      "flag": "tn"
+    },
+    "TN_02": {
+      "name": "Tunisia",
+      "sub": "",
+      "flag": "tn"
+    },
+    "TN_03": {
+      "name": "Tunisia",
+      "sub": "",
+      "flag": "tn"
+    },
+    "TR": {
+      "name": "T\u00fcrkiye",
+      "sub": "",
+      "flag": "tr"
+    },
+    "UA": {
+      "name": "Ukraine",
+      "sub": "",
+      "flag": "ua"
+    },
+    "US": {
+      "name": "United States",
+      "sub": "",
+      "flag": "us"
+    },
+    "ZA_01": {
+      "name": "South Africa",
+      "sub": "",
+      "flag": "za"
+    },
+    "ZA_02": {
+      "name": "South Africa",
+      "sub": "",
+      "flag": "za"
+    },
+    "ZA_03": {
+      "name": "South Africa",
+      "sub": "",
+      "flag": "za"
+    },
+    "ZA_04": {
+      "name": "South Africa",
+      "sub": "",
+      "flag": "za"
+    }
+  },
+  "value_format": {
+    "prefix": "",
+    "suffix": "",
+    "decimals": 2,
+    "compact": false,
+    "unit_suffix": " bcm"
+  },
+  "text": {
+    "title": "Who Stores the Most Gas?",
+    "subtitle": "REPORTED STOCKS \u00b7 JAN 2010\u2013AUG 2026",
+    "show_legend": true,
+    "show_month": true,
+    "show_rank": true,
+    "max_label": "LARGEST REPORTED GAS STOCK",
+    "footer": "JODI-Gas \u00b7 Monthly positive minimum \u00b7 Coverage varies \u00b7 * Code 2: caution",
+    "outro_title": "August 2026 \u00b7 Largest reported stocks",
+    "sources_label": "SOURCE & METHOD",
+    "cta": "Which country surprised you most?",
+    "min_label": "SMALLEST NON-ZERO STOCK \u00b7 COMPARISON"
+  },
+  "events": [
+    [
+      "2010-01",
+      "2010 \u00b7 Available reporting countries"
+    ],
+    [
+      "2013-01",
+      "2013 \u00b7 German reporting series begins"
+    ],
+    [
+      "2016-01",
+      "2016 \u00b7 Canadian reporting series begins"
+    ],
+    [
+      "2026-08",
+      "August 2026 \u00b7 Latest shared reporting month"
+    ]
+  ],
+  "sources": [
+    "JODI-Gas \u00b7 End-of-month stocks \u00b7 Billion m\u00b3",
+    "Assessment codes 1/2 \u00b7 Unassessed data excluded",
+    "Lowest positive monthly report \u00b7 All eligible countries",
+    "* Assessment code 2: use with caution (JODI)"
+  ],
+  "theme": {
+    "bg_top": "#101F35",
+    "bg_bottom": "#070F1D",
+    "text": "#F1F7F8",
+    "muted": "#9EBAC4",
+    "dim": "#829DAA",
+    "card_top": "#1B344D",
+    "card_bottom": "#11263A",
+    "bar_hi": "#EBF6F4",
+    "bar_lo": "#A8C8CE",
+    "bar_extrude": "#365C68",
+    "accent": "#77BFF4",
+    "glows": [
+      "#478FCC",
+      "#DDB17B"
+    ],
+    "leader": "#EDBE82",
+    "lowest": "#9EBFEA",
+    "depth_3d": "medium",
+    "bokeh": true,
+    "year_glow": "#77BFF4"
+  },
+  "music": {
+    "mode": "synth",
+    "bpm": 112,
+    "seed": 201026,
+    "lufs": -14,
+    "chords": [
+      [
+        50,
+        53,
+        57
+      ],
+      [
+        46,
+        50,
+        53
+      ],
+      [
+        53,
+        57,
+        60
+      ],
+      [
+        48,
+        52,
+        55
+      ]
+    ],
+    "bass": [
+      38,
+      34,
+      41,
+      36
+    ]
+  },
+  "fonts": {
+    "dir": "assets/fonts"
+  },
+  "comparison": {
+    "mode": "smallest_positive_monthly",
+    "source_csv": "data/assessed_reported_stocks.csv",
+    "tie_policy": "keep_current_otherwise_country_code",
+    "decimals": 7
+  },
+  "pacing": {
+    "year_weights": {
+      "2011": 1.25,
+      "2013": 1.4,
+      "2021": 1.25
+    },
+    "holds_at_month_indices": [
+      23,
+      47,
+      143
+    ],
+    "hold_seconds": 0.25
+  }
+}
